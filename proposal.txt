@@ -1,0 +1,9 @@
+This app is all about tracking and achieve your financial goals or saving. 
+In today's people do have more than 1 bank accounts not even in the same bank but also in others,
+ so our goal is to connect all those bank accounts and give you one virtual account which will tell you about 
+the total amount you have in all the accounts. And we will show a dashboard having an insight type functionality 
+which will show you where did you spend money today or yesterday or any in a specific week or month. Will tell you 
+where did you spend that money on that day. As said to achieve your financial goals, we will also set a reminder,
+that reminder will be according to your goal, like your bank account has 100K, and you want to save 20K at the end of 
+the month, so whenever your account balance reached 20k it will give you a reminder call or message to alert you that 
+you have touched the limit of this month.

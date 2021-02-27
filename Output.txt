@@ -1,0 +1,72 @@
+PUN: { 
+Delimeter 
+Token ID: $i 
+Assinment OP: = 
+Token IntLit: 13 
+PUN: ; 
+Delimeter 
+Token ID: $flag 
+Assinment OP: = 
+Token IntLit: 0 
+PUN: ; 
+Delimeter 
+Token KW: for 
+PUN: ( 
+Token ID: $j 
+Assinment OP: = 
+Token IntLit: 2 
+PUN: ; 
+Token ID: $j 
+Comparison OP: < 
+Token ID: $i 
+PUN: ; 
+Token ID: $j 
+Arthmetic OP: + 
+Arthmetic OP: + 
+PUN: ) 
+Delimeter 
+PUN: { 
+Delimeter 
+Token KW: If 
+PUN: ( 
+Token ID: $j 
+Arthmetic OP: % 
+Token IntLit: 2 
+Delimeter 
+Comparison OP: == 
+Delimeter 
+Token IntLit: 0 
+PUN: ) 
+Delimeter 
+Token ID: $flag 
+Assinment OP: = 
+Token IntLit: 1 
+PUN: ; 
+Delimeter 
+Token KW: break 
+PUN: ; 
+Delimeter 
+PUN: } 
+Delimeter 
+Token KW: If 
+PUN: ( 
+Token ID: $flag 
+Comparison OP: == 
+Token IntLit: 0 
+PUN: ) 
+Delimeter 
+Token KW: echo 
+PUN: ( 
+Token String_Lit: “ ” 
+PUN: ) 
+PUN: ; 
+Delimeter 
+Token KW: else 
+Delimeter 
+Token KW: echo 
+PUN: ( 
+Token String_Lit: “ notprime ” 
+PUN: ) 
+PUN: ; 
+Delimeter 
+PUN: } 
